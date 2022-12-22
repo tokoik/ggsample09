@@ -12,6 +12,7 @@
 		7D5B16751EE5A5A300D0846D /* color.tga in Resources */ = {isa = PBXBuildFile; fileRef = 7D5B16721EE5A5A300D0846D /* color.tga */; };
 		7D5B16761EE5A5A300D0846D /* height.tga in Resources */ = {isa = PBXBuildFile; fileRef = 7D5B16731EE5A5A300D0846D /* height.tga */; };
 		7D5B16791EE5A5F700D0846D /* shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D5B16781EE5A5F700D0846D /* shader.cpp */; };
+		7DA620D729543C3A00849AD5 /* GgApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DA620D629543C3A00849AD5 /* GgApp.cpp */; };
 		7DC2D868150E29F2007E9256 /* gg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DC2D866150E29F2007E9256 /* gg.cpp */; };
 		7DC2D86A150E29FB007E9256 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DC2D869150E29FB007E9256 /* main.cpp */; };
 		7DC2D87D150E2A2D007E9256 /* ggsample09.frag in Resources */ = {isa = PBXBuildFile; fileRef = 7DC2D87B150E2A26007E9256 /* ggsample09.frag */; };
@@ -22,12 +23,12 @@
 		7D01138720A117CC006875FA /* ggsample09.cpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = ggsample09.cpp; sourceTree = "<group>"; tabWidth = 2; };
 		7D1E90EE1123E36C005E6C75 /* ggsample09.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ggsample09.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D1E90F11123E36C005E6C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D57105F23F8FD4700856C4B /* Window.h */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Window.h; sourceTree = "<group>"; tabWidth = 2; };
 		7D57106023F8FD5000856C4B /* gg.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = gg.icns; sourceTree = "<group>"; };
 		7D5B16721EE5A5A300D0846D /* color.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = color.tga; sourceTree = "<group>"; };
 		7D5B16731EE5A5A300D0846D /* height.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = height.tga; sourceTree = "<group>"; };
 		7D5B16781EE5A5F700D0846D /* shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = shader.cpp; sourceTree = "<group>"; tabWidth = 2; };
 		7D5B167A1EE5A60D00D0846D /* shader.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = shader.h; sourceTree = "<group>"; tabWidth = 2; };
+		7DA620D629543C3A00849AD5 /* GgApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GgApp.cpp; sourceTree = "<group>"; };
 		7DC2D866150E29F2007E9256 /* gg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = gg.cpp; sourceTree = "<group>"; tabWidth = 2; };
 		7DC2D867150E29F2007E9256 /* gg.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = gg.h; sourceTree = "<group>"; tabWidth = 2; };
 		7DC2D869150E29FB007E9256 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = main.cpp; sourceTree = "<group>"; tabWidth = 2; };
@@ -55,7 +56,7 @@
 				7D5B167A1EE5A60D00D0846D /* shader.h */,
 				7D5B16781EE5A5F700D0846D /* shader.cpp */,
 				7DD627D726CA9F2C00C0CA0F /* GgApp.h */,
-				7D57105F23F8FD4700856C4B /* Window.h */,
+				7DA620D629543C3A00849AD5 /* GgApp.cpp */,
 				7DC2D867150E29F2007E9256 /* gg.h */,
 				7DC2D866150E29F2007E9256 /* gg.cpp */,
 				7DC2D87C150E2A26007E9256 /* ggsample09.vert */,
@@ -149,6 +150,7 @@
 				7D5B16791EE5A5F700D0846D /* shader.cpp in Sources */,
 				7DC2D868150E29F2007E9256 /* gg.cpp in Sources */,
 				7DC2D86A150E29FB007E9256 /* main.cpp in Sources */,
+				7DA620D729543C3A00849AD5 /* GgApp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
